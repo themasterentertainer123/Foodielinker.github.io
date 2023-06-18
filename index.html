@@ -1,2 +1,225 @@
-# foodielinker.github.io
-This website gives link of Youtube videos of food recipes.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foodie Linker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F7F7F7;
+      color: #333333;
+    }
+
+    /* Header */
+    header {
+      background-color: #0066CC;
+      padding: 20px;
+      color: #FFFFFF;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      text-align: center;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #FFFFFF;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0066CC;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #FF8C00;
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 40px;
+      text-align: center;
+      display: none;
+      background-color: #FFF;
+      margin: 0 auto;
+      margin-top: 20px;
+      max-width: 800px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .section h2 {
+      color: #FF8C00;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 36px;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section li {
+      margin-bottom: 10px;
+    }
+
+    .section a {
+      color: #555555;
+      text-decoration: none;
+    }
+
+    .section a:hover {
+      color: #FF8C00;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0066CC;
+      padding: 20px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    /* Additional Styles */
+    p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Foodie Linker</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#breakfast">Breakfast</a></li>
+      <li><a href="#lunch">Lunch</a></li>
+      <li><a href="#dinner">Dinner</a></li>
+      <li><a href="#dessert">Dessert</a></li>
+      <li><a href="#beverages">Beverages</a></li>
+      <li><a href="#snacks">Snacks</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section active">
+    <h2>Welcome to Foodie Delights</h2>
+    <p>Discover a world of delicious recipes and culinary inspiration.</p>
+    <p>Explore our collection of breakfast, lunch, dinner, dessert, beverages, and snacks recipes.</p>
+    <p>Get ready to indulge in the art of cooking!</p>
+  </section>
+
+  <section id="breakfast" class="section">
+    <h2>Breakfast Recipes</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=rB8JC3P5KbI" target="_blank">Egg Recipe</a></li>
+      <li><a href="https://www.youtube.com/watch?v=bLqbyP0Vf-8" target="_blank">Sandwich</a></li>
+      <li><a href="https://www.youtube.com/watch?v=AQawT9QC2OQ" target="_blank">Potato + Egg</a></li>
+    </ul>
+  </section>
+
+  <section id="lunch" class="section">
+    <h2>Lunch Recipes</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=x0GDc9RiMnE" target="_blank">Chicken Manchurian</a></li>
+      <li><a href="https://www.youtube.com/watch?v=os8hePSciIQ" target="_blank">Vegetarian Special</a></li>
+      <li><a href="https://www.youtube.com/watch?v=mwjNk1_A5uI" target="_blank">Two Quick Vegetarian Recipes</a></li>
+    </ul>
+  </section>
+
+  <section id="dinner" class="section">
+    <h2>Dinner Recipes</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=dEC7ylmWQSk" target="_blank">Five Delicious Dinner Ideas</a></li>
+      <li><a href="https://www.youtube.com/watch?v=QLX4Ka1cL6A" target="_blank">Easy Dinner Recipes</a></li>
+      <li><a href="https://www.youtube.com/watch?v=C8LJJa28ySk" target="_blank">Tasty Dinner Recipes</a></li>
+    </ul>
+  </section>
+
+  <section id="dessert" class="section">
+    <h2>Dessert Recipes</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=QKdJyaecCBo" target="_blank">Chocolate Cake</a></li>
+      <li><a href="https://www.youtube.com/watch?v=SLmmKPn5gmI" target="_blank">Apple Pie</a></li>
+      <li><a href="https://www.youtube.com/watch?v=xWVnL2X4RKs" target="_blank">Strawberry Cheesecake</a></li>
+    </ul>
+  </section>
+
+  <section id="beverages" class="section">
+    <h2>Beverages</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=RFFXGn2V1eM" target="_blank">Green Smoothie</a></li>
+      <li><a href="https://www.youtube.com/watch?v=2W-D2D9Ivl8" target="_blank">Iced Coffee</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Vx2MLJ56f7w" target="_blank">Mango Lassi</a></li>
+    </ul>
+  </section>
+
+  <section id="snacks" class="section">
+    <h2>Snacks Recipes</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=asKPNTUTsd0" target="_blank">Potato Chips</a></li>
+      <li><a href="https://www.youtube.com/watch?v=njJ8FQXZmcE" target="_blank">Chicken Nuggets</a></li>
+      <li><a href="https://www.youtube.com/watch?v=tG-4EntWClw" target="_blank">Vegetable Spring Rolls</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2023 Foodie Linker. All rights reserved.</p>
+    <p>For business enquiries contact: themasterentertainer123@gmail.com</p>
+    <p>For any new recipe or for credit or suggestions contact Discord: The master entertainer#1802</p>
+  </footer>
+
+  <script>
+    // Function to handle menu navigation
+    function navigateToSection(sectionId) {
+      // Hide all sections
+      var sections = document.getElementsByClassName("section");
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].classList.remove("active");
+      }
+
+      // Show selected section
+      var section = document.getElementById(sectionId);
+      section.classList.add("active");
+    }
+
+    // Add click event listeners to menu links
+    var menuLinks = document.querySelectorAll("nav a");
+    menuLinks.forEach(function(link) {
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        var sectionId = link.getAttribute("href").substring(1);
+        navigateToSection(sectionId);
+      });
+    });
+
+    // Set the initial active section
+    navigateToSection("home");
+  </script>
+</body>
+</html>
